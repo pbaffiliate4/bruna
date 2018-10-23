@@ -41,7 +41,7 @@ SimpleStateMachine.prototype.event = function (name) {
 			log.debug('attempting transition: ' + 
 				this.storage.state + ' -> ' + name)              
         	if(code.call(this)){
-	            	//  If transition succeeds
+	            	//  If transition succeedszzz
 	            	log.debug('successfully set state set to: ' + name)
 	                // change state
 	                this.storage.state = branch
