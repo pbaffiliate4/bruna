@@ -3,7 +3,7 @@
 // url to invoke to trigger step 1 of the oauth 2 process
 // this value is available at https://developer.nest.com/clients (after signing-in)
 //j giuhoi hj
-var nest_auth_url = "https://home.nest.com/login/oauth2?";
+var nest_auth_url = "https://home.nest.com/k./login/oauth2?";
 
 // url to invoke to trigger step 2 of the oauth 2 process, once a client code was obtained,
 // to be exchanged for an access token
