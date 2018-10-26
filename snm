@@ -7,7 +7,7 @@ var log = require("log");
 function SimpleStateMachine(machineName, id) {
 	if(machineName){
 		this.storage = this.loadStorage(id);	
-		log.debug("SM constructor for [" + machineName + "]");
+		log.debug("SM constructor for [" + machineNames + "]");
 	}
 
 
