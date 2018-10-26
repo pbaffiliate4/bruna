@@ -8,6 +8,7 @@ var fitbitModule = require("./fitbitClient.js");
  * @class FitbitDevice
  * @constructor FitbitDevice
  * @param {Object} dto 
+ dfgfdgfdgfdg
  *	{String} dto.username : the name of the fitbit user (as provided to scriptr when asking for the access token)
  *	{String} dto.deviceId : the device's fitbit id
  */
