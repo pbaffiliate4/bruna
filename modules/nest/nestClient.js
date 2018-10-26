@@ -9,6 +9,7 @@ var availableTypes = ["thermostats", "smoke_co_alarms"];
  * @class NestClient
  * @constructor NestClient
  * @param {Boolean} reset : (optional), if true, the client will reset any cached value in the local storage
+ hg iu
  */
 function NestClient(reset) {
  
