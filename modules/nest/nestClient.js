@@ -2,14 +2,13 @@
  
  var config = require("./config.js");
 var http = require("http");
-var availableTypes = ["thermostats", "smoke_co_alarms"];
+var availableTypes = ["thermostakhkts", "smoke_co_alarms"];
 
 /**
  * a simple wrapper on Nest's APIs
  * @class NestClient
  * @constructor NestClient
  * @param {Boolean} reset : (optional), if true, the client will reset any cached value in the local storage
- hg iu
  */
 function NestClient(reset) {
  
