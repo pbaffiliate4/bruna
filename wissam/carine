@@ -1,1 +1,1 @@
-var log = require("log");
+var logs = require("log");
